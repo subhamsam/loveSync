@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+nav a{
+     font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.custom-btn {
+    background-color: #f73123;
+}
+.intro {
+    height: 400px;
+    width: 100%;
+    background-color: #f73123;
+    color: #fff;
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lust {
+    background-color: #fff;
+    height: 400px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.submit{
+    text-align: center;
+}
+.submit h3{
+    background-color: rgb(83, 161, 190);
+}
+.calculator {
+    background-image: url(./images/wallhaven-lmweyr_1280x800.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
+}
+.container h1 {
+    text-align: center;
+    color: #f73123;
+}
+
+.about {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #f73123;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9c0000;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+ @media (max-width: 768px) {
+     .navbar-nav {
+         width: 100%;
+         text-align: center;
+         margin-top: 10px;
+         /* Adjust as needed */
+     }
+
+     .navbar-toggler {
+         margin-right: 10px;
+         /* Adjust as needed */
+     }
+
+     .lust {
+        height: auto;
+        flex-direction: column;
+     }
+ }
+ 
+ .hidden {
+     display: none;
+ }
+
