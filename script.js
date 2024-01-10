@@ -5,7 +5,7 @@ function calculateLove() {
 
     // Send the data to the server
     // Update the fetch URL to match your server endpoint
-fetch('http://localhost:3000/calculate-love', {
+fetch('http://152.58.164.152:3000/calculate-love', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
