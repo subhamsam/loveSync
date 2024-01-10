@@ -5,7 +5,7 @@ function calculateLove() {
 
     // Send the data to the server
     // Update the fetch URL to match your server endpoint
-fetch('https://stirring-brigadeiros-112c81.netlify.app', {
+fetch('http://localhost:3000/calculate-love', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
